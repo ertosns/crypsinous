@@ -2,5 +2,10 @@
 name = "plonkbyhand"
 version = "0.1.0"
 
+edition = "2021"
+
 [dependencies]
-halo2 =  {git = "https://github.com/zcash/halo2", branch = "main", features = ["dev-graph", "gadget-traces", "sanity-checks"], optional = true}
+halo2 = { path = "/opt/halo2" }
+
+[patch.crates-io]
+halo2 =  {git = "https://github.com/zcash/halo2", branch = "main"}
