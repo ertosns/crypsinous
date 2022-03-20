@@ -17,5 +17,5 @@ $$sn:=PRF_{a_{sk}}^{sn}(\rho)$$
 
 ### pouring
 pouring $coin^{old}$ into $coin_1^{new}$, $coin_2^{new}$. with $v^{old}=v_{pub}+v_1^{new}+v_2^{new}$ as follows:
-$$tx_{pour}:=(rt,sn^{old},cm_1^{new},cm_2^{new},\pi_{pour}$$
+$$tx_{pour}:=(rt,sn^{old},cm_1^{new},cm_2^{new},\pi_{pour})$$
 $\pi_{pour}$ is the pouring sk-snark proof of the spending/pouring process.
